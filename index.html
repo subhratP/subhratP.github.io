@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Subhrat's Personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header <li><a href="files/Subhrat_Praharaj_CV.pdf" class="button">CV</a></li> --> 
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpeg" alt="" /></a>
+					<h1><strong>I am Subhrat</strong>, an incoming PhD<br />
+					candidate at the <a href="https://api.uva.nl">API, UvA</a>.</h1><br />
+					I mostly work on computational astropysics <br />and application of ML within the same.<br /><br />
+					<li><a href="#about" class="button">About</a></li>
+					<li><a href="#research" class="button">Research Work</a></li>
+					<li><a href="#movies" class="button">Movies</a></li>
+					<li><a href="#teaching" class="button">Teaching</a></li>
+					<li><a href="#talks" class="button">Talks</a></li>
+					<li><a href="#life" class="button">Outside Astro</a></li>
+					<li><a href="#contact" class="button">Get In Touch</a></li>
+				</div>
+			</header>
+			
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="about">
+						<header class="major">
+							<h2>Subhrat Praharaj's Personal Website<br />
+							</h2>
+						</header>
+						<p>Hello world! I work on developing scientific codes to simulate and theoretically understand the inner workings of various astrophysical phenomena. 
+							I also try to implement the growing advances in the field of Machine Learning in my project pipelines to aid this understanding. While I have worked on 
+							phenomology ranging from scales of protoplanetary disks to galaxy clusters, I am now settling towards galactic and extragalactic phenomena combining studies
+							of kinetic particle interactions with Magnetohydrodynamic turbulence (General Relativistic and otherwise) to understand stucture formation and 
+							feedback phenomena more fundamentally.
+						</p>
+					</section>
+
+				<!-- Two -->
+					<section id="research">
+						<h2>Research Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/CRT.png" class="image fit thumb"><img src="images/thumbs/CRB.png" alt="" /></a>
+								<h3>Cosmic ray diffusion in interstellar medium</h3>
+								<p>Cosmic ray propagation, especially at test particle scales are considered to be strictly 
+									dependent on the averaged magnetic field structure itself. There has been very little attention given to
+									the effects of underlying Magnetohydrodynamic parameters on the diffusion behaviour of 
+									cosmic rays. One of such parameters is the driving mode that governs the way in which turbulence is driven in gas, 
+									and in turn how the magnetic field structure evolves and thus indirectly the CR diffusion. As part 
+									of my thesis, I was supervised by <a href="https://www.mso.anu.edu.au/~chfeder/">Christoph Federrath</a> 
+									and <a href="https://sites.google.com/site/amitseta90/">Amit Seta</a> to develop MHD-Test Particle 
+									integration and analysis pipeline to study the effect of turbulence driving on CR diffusion. This 
+									involved forming scaling relationships between diffusion parameters and Alfvén Mach number, CR energies while
+									comparing the obtained scalings over different modes of driving. We also obtained interesting results on the 
+									regimes of diffusion at these scales. [Paper in prep!]
+								</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/GNN.jpeg" class="image fit thumb"><img src="images/thumbs/MACSJ0717.jpg" alt="" /></a>
+								<h3>Virial mass estimation of galaxy clusters using GNNs</h3>
+								<p>Graph Neural Networks are a very exciting tool gaining recent impetus in the Machine 
+									Learning community, as well as Astronomy and Astrophysics due to it's performance on 
+									large, unstructured data and their abilty to capture spatial information more efficiently through 
+									the use of computational graph based operations. Anothe advantage they hold is in terms of 
+									scalability as graphs can inherently be partitioned that enables them to be effectively distributed 
+									over nodes in HPC clusters. All this sparks massive potential with astronomical datasets 
+									which are inherently unstructured and span terabytes of data. I am working with 
+									<a href="https://franciscovillaescusa.github.io">Francisco-Villaescusa Navarro</a> 
+									to apply GNNs to infer galaxy cluster masses using the UCHUU dataset and SDSS4 catalogs for training and testing 
+									respectively. GNNs are trickier to build and have to be trained carefully to ensure geometrical invariance 
+									which is key to modelling cosomological simulations.
+								</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/density.png" class="image fit thumb"><img src="images/thumbs/large_density.png" alt="" /></a>
+								<h3>Structure formation in modified gravity cosmologies</h3>
+								<p>Modified gravity theories are gaining impetus in recent years as an alternative 
+									to dark energy understanding of the observed accelerated expansion of the universe. 
+									I collaborated with Oleksii Sokoliuk and <a href="https://www.bits-pilani.ac.in/hyderabad/pradyumnkumarsahoo/Profile">PK Sahoo</a> 
+									among other collaborators to work on various projects involving large scale structure 
+									formation and exotic compact objects in Modified Gravities. These works included 
+									radiative transfer calculation using test particle orbital motion solutions representing 
+									<a href="https://doi.org/10.1051/0004-6361/202244358">accretion flows around diffierent wormhole geomtries</a>, 
+									and using SPH simulations to model <a href="https://https://doi.org/10.1093/mnras/stad968">large scale structure formation in f(Q) gravity cosmology</a>.
+									A common theme in these studies is constraining initial condition parameters from observed 
+									data to generate initial conditions for the simulations from where we extract observables 
+									for large-scale structure such as  density/temperature/mean molecular weight fields, matter power 
+									spectrum (both 2/3D, with/without redshift space distortions), bispectrum, two-point correlation function 
+									and halo mass function. [Further studies in this series of papers under prep!]
+								</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/nnarch.png" class="image fit thumb"><img src="images/thumbs/ppd.jpeg" alt="" /></a>
+								<h3>Planet mass and position estimation in protoplanetary disks using CNNs</h3>
+								<p>Current observation techniques do not allow us to identify young exoplanets forming 
+									in protoplanetary disks. Thus, most of the current planet formation theories build 
+									upon planet masses predicted by analytical means. However. these estimates depend on 
+									definitions of gap width and gap depth from observed PPD data, and given multiple such 
+									definitions we have poor reproducability of such results. Assuming gaps form through 
+									planets opening them (there are various other means of gap opening too), we use computer 
+									vision to overcome this issue of reproducability. Working with a team of researchers from 
+									all over the globe, me and <a href="https://science.jpl.nasa.gov/people/sayantan-auddy/">Sayantan Auddy</a> 
+									built and trained CNNs on a PPD image dataset that is synthetically generated (hydro sims + radiative transfer), 
+									geometrically invariant, and degenerate in gap space to predict planet masses and positions given dust 
+									continuum images of radio wavelengths such as those obtained by ALMA/VLA. [Paper in prep!]
+								</p>
+							</article>
+						</div>	
+						<details>
+							<summary>Older Research...</summary>
+							<div class="row">
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/HDlimit.jpeg" class="image fit thumb"><img src="images/thumbs/MS.png" alt="" /></a>
+									<h3>Stellar population synthesis to understand Humphreys-Davidson limit</h3>
+									<p>The Humphreys-Davidon limit is a very famous unsolved problem in stellar astronomy.
+										The non-existence or non-observability of highly luminous massive stars has been attributed 
+										to a wide variety of probable reasons but the true stellar populations have never been accurately
+										recovered. As part of an undergraduate summer internship at TAU, I worked with <a href="http://www.astro.tau.ac.il/~arcavi/">Iair Arcavi</a> and Avishai Gilkis
+										to code a synthetic population synthesis software that formed complex stellar populations 
+										with informed assumptions on star formation history, multiplicity and mixing. This work also used 
+										evolution tracks with different compositions corresponding to LMC, SMC, and the Milky Way.
+									</p>
+								</article>
+								<article class="col-6 col-12-xsmall work-item">
+									<a href="images/fulls/NS.png" class="image fit thumb"><img src="images/thumbs/NS.jpg" alt="" /></a>
+									<h3>Constraing dense matter EoS in neutron stars usning bayesian analysis and symbolic regression</h3>
+									<p>There are several methods in literature to constraion neutron star dense matter EoS. These include both 
+										parametric approaches, like spectral parametrisation or piecewise polytope models where we try to fit 
+										candidate EoS as best as possible with minimum parameters, and parameter agnostic ones, where we take a 
+										large number of EoS functionals with literature informed ranges on pressure-density space to recover candidate EoS. 
+										Apart from these, there is also the chiral EFT approach for low densities where we know the nuclear physics, and either 
+										agnostic or parametric approach in the high density regions where we do not know the Nuclear physics. I explored 
+										combinations of inferring nuclear empirical parameters for low densities and 3-piece piecewise polytrope for 
+										higher densities, with the transition densities obtained using bauyesian evidence. The data was obtained from 
+										3 spot mass-radius samples from <a href="https://doi.org/10.48550/arXiv.1912.05705">Miller et al.</a> and LIGO data from 
+										GW170817 and GW190425 merger events. I also compared results from the bayesian proceedure against symbolic regression 
+										to implement and explore methods discussed in <a href="https://doi.org/10.48550/arXiv.2303.03192">Tenachi et al.</a>
+									</p>
+								</article>
+							</div>
+						</details>
+					</section>
+				
+				<!-- Three -->
+					<section id="movies">
+						<h2>Movies</h2>
+						<p>Cosmic ray propagation for <a href="/videos/particle_trajectory_1000_z1.0M0.1MA1.0R0.1.mp4">solenoidally</a> and <a href="/videos/particle_trajectory_1000_z0.0M0.1MA1.0R0.1.mp4">compressively</a> 
+							driven, subsonic turbulence (M = 0.1) in the alfvenic regime (MA = 1.0). Derived from work done in MSc thesis, paper in prep. 
+						</p>
+						<!-- <p>Cosmic ray propagation for solenoidally driven, subsonic turbulence in the alfvenic regime.</p>
+						<video width="400" height="350" controls>
+							<source src="myvid.mp4" type="video/mp4">
+						</video>
+						<p>Cosmic ray propagation for compressively driven, subsonic turbulence in the alfvenic regime.</p>
+						<video width="400" height="350" controls>
+							<source src="myvid.mp4" type="video/mp4">
+						</video> -->
+					</section>
+				
+				<!-- Four -->
+					<section id="teaching">
+						<h2>Teaching Assignments</h2>
+						<p>From Astrochemistry to Planetary habitability, MSc Elective, Feb-March 2024</p>
+					</section>
+
+				<!-- Five -->
+					<section id="talks">
+						<h2>Invited Talks and Conference Presentations</h2>
+						<p>Presented the paper <a href="https://doi.org/10.1063/5.0058675">'Design of powertrain of an off-road racing vehicle'</a> at the 
+							Second <a href="https://icmmse.com">'International Conference on Manufacturing, Material Science and Engineering'</a>, Hyderabad, 2020</p>
+					</section>			
+					
+				<!-- Six -->
+					<section id="life">
+						<h2>Life Outside Astronomy</h2>
+						<p>I closely follow football, cricket and MMA. I have been a Manchester United fan since 2008 which was pretty much around the time 
+							I started watching the game itself. Watching a game at Old Trafford is a dream, so photos will follow soon (hopefully)!
+						</p>
+						<p> Apart from sports, I love travelling, listening to rap and various rock genres, watching anime and reading manga. 
+							I am particularly a huge fan of One Piece and HunterXHunter.
+						</p>
+						<p> On the social front I was actively involved with the National Service Scheme during my sophomore year in 2019. I worked within the 
+							capacity of a volunteer taking part in events involving the upliftment of old age homes and collection of data concerning domestic 
+							abuse in suburban regions around Hyderabad.
+						</p>
+					</section>
+
+				<!-- Seven -->
+					<section id="contact">
+						<h2>Get In Touch</h2>
+						<p>While I am reachable on my email, getting in touch through here will avoid spam misclassifcation over emails.
+							So dropping a small message over here describing the subject would let me know if I should check my spam 
+							folders just in case!
+						</p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://twitter.com/SubhP006?t=do1zI3y0u17QXRbKtT9AOQ&s=08" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://github.com/subhratP" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://www.linkedin.com/in/subhrat-praharaj-485666193/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://orcid.org/0000-0003-1857-4101" class="icon brands fa-orcid"><span class="label">Linkedin</span></a></li>
+						<li><a href="mailto: sp7437473@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Subhrat Praharaj. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
